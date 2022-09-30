@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../../assets/icons/favicon.png" />
+
+    <title>Shelter : Our pets</title>
+
+    <!-- Stylesheets -->
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="wrapper">
+
+      <header class="header clearfix">
+        <div class="inner-wrapper">
+          <div class="header__holder">
+            <a href="../main/index.html" class="header__logo">
+              <h1>Cozy House</h1>
+              <p>Shelter for pets in Boston</p>
+            </a>
+            <nav class="header__nav">
+              <button class="header__button" id="menuToggle"><i></i></button>
+
+              <div id="headerMenu">
+                <a href="../main/index.html" class="header__logo header__link">
+                  <div class="h1">Cozy House</div>
+                  <p>Shelter for pets in Boston</p>
+                </a>
+
+                <ul>
+                  <li><a href="../main/index.html" class="header__link">About the shelter</a></li>
+                  <li><span class="header__link active">Our pets</span></li>
+                  <li><a href="../main/index.html#help" class="header__link">Help the shelter</a></li>
+                  <li><a href="#contacts" class="header__link">Contacts</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div id="navOverlay"></div>
+      </header>
+
+      <section id="our-friends" class="section clearfix">
+        <div class="inner-wrapper">
+          <div class="section__content">
+            <h3>Our friends who <br />are looking for a house</h3>
+
+            <div class="pets-grid"></div>
+
+            <div class="pagination">
+              <button class="button button_first button_secondary"><<</button>
+              <button class="button button_prev button_secondary"><</button>
+              <span class="button button_current">1</span>
+              <button class="button button_next button_secondary">></button>
+              <button class="button button_last button_secondary">>></button>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <footer id="contacts" class="footer clearfix">
+        <div class="inner-wrapper">
+          <div class="footer__section footer__section_first">
+            <h3>For questions and suggestions</h3>
+            <h4 class="footer__email"><a href="mailto:email@shelter.com"><img src="../../assets/icons/mail.svg" width="40" height="26" alt="" /> email@shelter.com</a></h4>
+            <h4 class="footer__tel"><a href="tel:+13 674 567 75 54"><img src="../../assets/icons/phone.svg" width="40" height="32" alt="" /> +13 674 567 75 54</a></h4>
+          </div>
+
+          <div class="footer__section footer__section_second">
+            <h3>We are waiting for your visit</h3>
+            <address>
+              <h4 class="footer__address-usa"><a href="https://goo.gl/maps/3EKWZETfLzw7KbS39" target="_blank"><img src="../../assets/icons/pin.svg" width="22" height="32" alt="" /> 1 Central Street, Boston <br />(entrance from the store)</a></h4>
+              <h4 class="footer__address-uk"><a href="https://goo.gl/maps/j3ZZxa1EayjgJaAa9" target="_blank"><img src="../../assets/icons/pin.svg" width="22" height="32" alt="" /> 18 South Park, London</a></h4>
+            </address>
+          </div>
+
+          <div class="footer__section footer__section_third">
+            <img src="../../assets/images/footer-puppy.png" alt="" />
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <div id="overlay"></div>
+
+    <div id="modal">
+      <div class="modal">
+        <button class="button button_secondary modal__close-button"></button>
+
+        <div class="modal__body"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
